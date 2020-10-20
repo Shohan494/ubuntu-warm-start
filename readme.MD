@@ -6,19 +6,16 @@ sudo apt install php php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  
 
 sudo apt-get install mysql-server
 
-
 sudo apt-get install mysql-server
 sudo mysql_secure_installation
 
 sudo mysql -u root -p
-
 
 CREATE USER 'admin'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 
 mysql -u admin -p
-
 
 sudo apt install curl php-cli php-mbstring git unzip
 
