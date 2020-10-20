@@ -1,6 +1,7 @@
 PHP 7.4
 ========
 
+```
 sudo apt install php php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
 
 sudo apt-get install mysql-server
@@ -42,3 +43,4 @@ laravel new hello-world
 sudo snap install sublime-text --classic
 
 sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
+```
