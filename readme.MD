@@ -58,6 +58,8 @@ mysql > INSTALL COMPONENT "file://component_validate_password";
 
 sudo phpenmod mbstring
 
-SELECT user,authentication_string,plugin,host FROM mysql.user;
+mysql > SELECT user,authentication_string,plugin,host FROM mysql.user;
+
+mysql > ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';
 
 ```
