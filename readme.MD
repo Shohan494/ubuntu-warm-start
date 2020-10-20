@@ -40,4 +40,17 @@ laravel new hello-world
 sudo snap install sublime-text --classic
 
 sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
+
+```
+
+#### if error occurs
+
+```
+sudo apt install phpmyadmin
+
+sudo mysql
+
+mysql -u root -p
+
+mysql > UNINSTALL COMPONENT "file://component_validate_password";
 ```
