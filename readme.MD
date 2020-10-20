@@ -1,5 +1,5 @@
-PHP 7.4
-========
+PHP 7.4 + PHPMYADMIN -  ubuntu 20.04
+===================================
 
 ```
 sudo apt install php php-cli php-fpm php-json php-pdo php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
