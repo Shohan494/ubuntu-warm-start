@@ -58,6 +58,8 @@ mysql > INSTALL COMPONENT "file://component_validate_password";
 
 sudo phpenmod mbstring
 
+sudo systemctl restart apache2
+
 mysql > SELECT user,authentication_string,plugin,host FROM mysql.user;
 
 mysql > ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';
@@ -73,4 +75,6 @@ sudo ln -s /usr/share/phpmyadmin /var/www/
 sudo gedit /etc/apache2/apache2.conf
 
 Include /etc/phpmyadmin/apache.conf
+
+sudo systemctl restart apache2
 ```
