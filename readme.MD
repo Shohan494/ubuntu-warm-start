@@ -40,3 +40,5 @@ echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bashrc
 laravel new hello-world
 
 sudo snap install sublime-text --classic
+
+sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
