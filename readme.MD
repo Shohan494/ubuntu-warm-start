@@ -1,4 +1,4 @@
-PHP 7.4 + PHPMYADMIN -  ubuntu 20.04
+PHP 7.4 + PHPMYADMIN -  UBUNTU 20.04
 ===================================
 
 ```
@@ -81,3 +81,5 @@ Include /etc/phpmyadmin/apache.conf
 
 sudo systemctl restart apache2
 ```
+
+## works like charm
