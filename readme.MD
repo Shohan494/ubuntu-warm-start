@@ -65,3 +65,12 @@ mysql > ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY '
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 
 ```
+#### then
+
+```
+sudo ln -s /usr/share/phpmyadmin /var/www/
+
+sudo gedit /etc/apache2/apache2.conf
+
+Include /etc/phpmyadmin/apache.conf
+```
