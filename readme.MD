@@ -63,7 +63,10 @@ sudo systemctl restart apache2
 mysql > SELECT user,authentication_string,plugin,host FROM mysql.user;
 
 mysql > ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';
+```
 
+#### sometimes above method causes trouble - caching, I used native like below
+```
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 
 ```
