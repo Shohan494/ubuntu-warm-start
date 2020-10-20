@@ -54,3 +54,11 @@ mysql -u root -p
 
 mysql > UNINSTALL COMPONENT "file://component_validate_password";
 ```
+
+#### again from mysql
+```
+mysql > INSTALL COMPONENT "file://component_validate_password";
+
+sudo phpenmod mbstring
+
+```
