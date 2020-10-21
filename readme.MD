@@ -89,4 +89,6 @@ sudo systemctl restart apache2
 git config --global user.name "Your Name"
 
 git config --global user.email "youremail@domain.com"
+
+git config --list
 ```
