@@ -92,3 +92,13 @@ git config --global user.email "youremail@domain.com"
 
 git config --list
 ```
+
+
+
+Run the following command in Terminal to enable mod_rewrite.
+
+`sudo a2enmod rewrite`
+
+Now restart Apache.
+
+`sudo service apache2 restart`
