@@ -82,4 +82,11 @@ Include /etc/phpmyadmin/apache.conf
 sudo systemctl restart apache2
 ```
 
-## works like charm
+#### works like charm
+
+#### Git
+```
+git config --global user.name "Your Name"
+
+git config --global user.email "youremail@domain.com"
+```
