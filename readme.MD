@@ -1,4 +1,4 @@
-PHP 7.4 + PHPMYADMIN -  UBUNTU 20.04
+PHP 7.4 + APACHE + PHPMYADMIN - UBUNTU 20.04
 ===================================
 
 ```
