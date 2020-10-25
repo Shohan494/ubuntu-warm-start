@@ -67,7 +67,7 @@ mysql > ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY '
 
 #### sometimes above method causes trouble - caching, I used native like below
 ```
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+mysql > ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 
 ```
 #### then
@@ -82,7 +82,7 @@ Include /etc/phpmyadmin/apache.conf
 sudo systemctl restart apache2
 ```
 
-#### works like charm
+#### Works like charm
 
 #### Git
 ```
