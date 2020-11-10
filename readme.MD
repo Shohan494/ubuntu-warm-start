@@ -82,7 +82,7 @@ Include /etc/phpmyadmin/apache.conf
 sudo systemctl restart apache2
 ```
 
-#### Works like charm
+#### Works like charm :smile:
 
 #### Git
 ```
