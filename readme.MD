@@ -102,3 +102,5 @@ Run the following command in Terminal to enable mod_rewrite.
 Now restart Apache.
 
 `sudo service apache2 restart`
+
+-------------------------------------
