@@ -1,4 +1,4 @@
-PHP 7.4 + APACHE + PHPMYADMIN + MYSQL + UBUNTU 20.04
+PHP 7.4 ?? 8 + APACHE + PHPMYADMIN + MYSQL + UBUNTU 20.04
 =====================================================
 
 ```
